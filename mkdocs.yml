@@ -8,7 +8,8 @@ nav:
   - Home: index.md
   - Blogs:
       - Sample Blog: blogs/sample.md
-  - Projects: projects.md
+  - Projects:
+      - Education: projects/education.md
   - About: about.md
 
 plugins:
