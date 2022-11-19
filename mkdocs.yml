@@ -11,10 +11,13 @@ nav:
   - Projects: projects.md
   - About: about.md
 
+plugins:
+  - include-markdown
+
 theme:
   name: material
   language: en
-  palette: 
+  palette:
     primary: blue grey
     accent: light blue
   icon:
@@ -28,10 +31,10 @@ theme:
 
 extra_css:
   - stylesheets/extra.css
-  
+
 extra:
   social:
-    - icon: fontawesome/brands/linkedin 
+    - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/baluyotraf/
       name: baluyotraf
 
