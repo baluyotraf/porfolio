@@ -19,7 +19,7 @@ theme:
   name: material
   language: en
   palette:
-    primary: blue grey
+    primary: black
     accent: light blue
   icon:
     logo: fontawesome/solid/robot
