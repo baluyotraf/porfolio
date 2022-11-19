@@ -1,8 +1,10 @@
 site_name: Software + ML
 site_url: https://softwareplus.ml
+site_description: Stories and Codes from Research to Production
 repo_url: https://github.com/baluyotraf/softwareplusml
 repo_name: baluyotraf/softwareplusml
 edit_uri: ""
+copyright: Copyright &copy; 2022 Raffaello Baluyot
 
 nav:
   - Home: index.md
@@ -13,6 +15,7 @@ nav:
 
 plugins:
   - include-markdown
+  - social
 
 theme:
   name: material
@@ -37,5 +40,3 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/baluyotraf/
       name: baluyotraf
-
-copyright: Copyright &copy; 2022 Raffaello Baluyot
