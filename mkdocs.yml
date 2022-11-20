@@ -40,3 +40,6 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/baluyotraf/
       name: baluyotraf
+    - icon: fontawesome/brands/github
+      link: https://github.com/baluyotraf
+      name: baluyotraf
