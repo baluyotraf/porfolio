@@ -18,6 +18,9 @@ plugins:
   - include-markdown
   - social
 
+markdown_extensions:
+  - md_in_html
+
 theme:
   name: material
   language: en
