@@ -12,7 +12,6 @@ nav:
       - blogs/for-starters-how-this-was-built/content.md
   - Projects:
       - Education: projects/education.md
-  - About: about.md
 
 plugins:
   - include-markdown
@@ -35,9 +34,6 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.top
-
-extra_css:
-  - stylesheets/extra.css
 
 extra:
   social:
