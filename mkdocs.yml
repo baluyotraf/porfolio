@@ -4,12 +4,13 @@ site_description: Stories and Codes from Research to Production
 repo_url: https://github.com/baluyotraf/softwareplusml
 repo_name: baluyotraf/softwareplusml
 edit_uri: ""
-copyright: Copyright &copy; 2022 Raffaello Baluyot
+copyright: Copyright &copy; 2024 Raffaello Baluyot
 
 nav:
   - Home: index.md
   - Blogs:
-      - blogs/for-starters-how-this-was-built/content.md
+      - blogs/20240315-hejda-autoliv/content.md
+      - blogs/20221123-for-starters-how-this-was-built/content.md
   - Projects:
       - Education: projects/education.md
 
