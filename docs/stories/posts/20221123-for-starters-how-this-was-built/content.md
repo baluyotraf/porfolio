@@ -1,14 +1,25 @@
+---
+authors:
+  - baluyotraf
+date: 
+    created: 2022-11-23
+categories:
+  - software
+---
+
 # For Starters, How This Was Built
 
 ## Idea and Concept
 
 I always planned to create a website, but I didn't really have the motivation
 to go for it. I've always been more of the Machine Learning and back-end
-person. Though I worked recently with [Jetpack Compose]. Pretty fun!
+person. Though, I worked recently with [Jetpack Compose]. Pretty fun!
+
+<!-- more -->
 
 Well, speaking of websites, surprisingly I made a lot of them. But these are
 the documentation websites for the APIs and library I developed. So my idea
-is to leverage these tools so I can have some things to start with, the build
+is to leverage these tools, so I can have some things to start with, the build
 things from there. *You know, the agile way.*
 
 <figure markdown>
@@ -27,7 +38,7 @@ alternatives that worked well with other pages. And from there I found
 [MkDocs].
 
 [MkDocs] uses markdown files in order to create documentation. This is
-something familiar as most `README` files are written in markdown.
+something familiar, as most `README` files are written in Markdown.
 
 [MkDocs] also has a theme called [MkDocs Material]. It looks good and has a
 lot of customization options that are available. I am so impressed with how
@@ -38,7 +49,7 @@ much it provides out of the box.
 
 The code is hosted in [GitHub], so it was easy to go for deploying it in
 [GitHub Pages] with [GitHub Actions]. Documentations are mostly static web
-pages so [GitHub Pages] are enough for it. For CI, [MkDocs] and
+pages, so [GitHub Pages] are enough for it. For CI, [MkDocs] and
 [MkDocs Material] have you covered with their [GitHub Actions] support and
 examples.
 
