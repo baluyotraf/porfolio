@@ -34,7 +34,7 @@ Alternative Queries (altqq).
 Alternative Queries also allows you to manage your query parameters. For 
 example, for ODBC databases, `pyodbc` does not allow named parameter. If means 
 that to reuse queries, one needs to make note of the parameters, as they must
-be in order. For example
+be in order. For example:
 
 ```python
 query1 = """SELECT * from "Users" where "Id" = ?"""
@@ -44,7 +44,7 @@ full_query = f"{query1} UNION ALL {query2}"
 parameters = [uuid4(), "Arie"]
 ```
 
-The simple above looks simple, but if `query1` takes 3 parameters, and the 
+The code above looks simple, but if `query1` takes 3 parameters, and the 
 `full_query` reuses 3-5 existing queries, the scenario becomes more complex.
 Even in this case, there is a possibility to define `parameters` as 
 `["Arie", uuid4()]` if one is not careful.
