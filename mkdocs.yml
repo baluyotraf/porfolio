@@ -8,15 +8,16 @@ copyright: Copyright &copy; 2024 Raffaello Baluyot
 
 nav:
   - Home: index.md
-  - Blogs:
-      - blogs/20240315-hejda-autoliv/content.md
-      - blogs/20221123-for-starters-how-this-was-built/content.md
+  - Stories:
+      - stories/index.md
   - Projects:
       - Education: projects/education.md
 
 plugins:
   - include-markdown
   - social
+  - blog:
+      blog_dir: stories
 
 markdown_extensions:
   - md_in_html
