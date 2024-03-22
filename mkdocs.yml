@@ -15,12 +15,17 @@ nav:
 
 plugins:
   - include-markdown
+  - search
   - social
   - blog:
       blog_dir: stories
 
 markdown_extensions:
   - md_in_html
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+      auto_title: true
 
 theme:
   name: material
